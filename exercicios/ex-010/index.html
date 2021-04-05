@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <H1>Usando links externos</H1>
+    <p>Você pode usar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p> 
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no Youtube</a></p>
+    <!-- Para que o link externo seja aberto em uma nova "aba"  devemos utilizar o (target="_blank" rel="external") -->
+    <h1>Usando Links Internos</h1>
+    <p>Está é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p> <!-- Para dizer ao mecanismo de buscar que o link é da próxima página de seu próprio site, devemos utilizar (rel="next") -->
+    <p>Você também pode acessar nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+    <!-- Para vincular um link que está na próxima pasta devemos utilizar o Ctrl+Espaço selecionar a pasta e selecionar o arquivo -->
+    <h1>Links Para Download</h1>   
+    <ul>
+        <li><a href="livro/ligações.pdf" download="ligações.pdf" type="application/pdf">Baixar Livro em PDF</a></li>
+        <li><a href="livro/ligações.rar" download="ligações.rar" type="application/rar">Livro compactado em RAR</a></li>
+    </ul> 
+</body>
+</html>
